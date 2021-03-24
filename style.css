@@ -1,3 +1,51 @@
 body {
-    background: blue;
+    background: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+    
+}
+
+.top {
+    background-color: #A6ACAF;
+}
+
+.history {
+    background-color: #3498DB;
+}
+
+.experience {
+    background-color: #58D68D;
+}
+
+i {
+    font-size: 100px;
+    color: blue;
+}
+
+i:hover {
+    color: green;
+}
+
+.employer:hover {
+    color: red;
+}
+
+.hidden {
+    color: white;
+}
+
+#details {
+    width: 33.333%;
+    margin: auto;
+    float: center;
 }
