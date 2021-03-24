@@ -11,3 +11,7 @@ hidden.addEventListener('click', function() {
 })
 
 
+const proPic = document.querySelector('.image-center');
+proPic.addEventListener('mouseover', function() {
+    alert('You found me!')
+})
