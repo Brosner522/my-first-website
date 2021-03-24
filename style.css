@@ -17,10 +17,12 @@ body {
 
 .top {
     background-color: #A6ACAF;
+    border-width: 75px;
 }
 
 .history {
-    background-color: #3498DB;
+    background-color: #3499DB;
+    text-align: center;
 }
 
 .experience {
@@ -40,12 +42,26 @@ i:hover {
     color: red;
 }
 
+.school:hover {
+    color: red;
+}
+
 .hidden {
-    color: white;
+    color:white;
 }
 
 #details {
     width: 33.333%;
     margin: auto;
-    float: center;
+    text-align: center;
+    
+}
+
+#schooling {
+    background-color: #F7DC6F;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
 }
